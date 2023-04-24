@@ -1,0 +1,196 @@
+%2multibyte Version: 5.50.0.2960 CodePage: 1251
+%\usepackage[cp1251]{inputenc}
+%\usepackage{newthm}
+%\renewcommand{\baselinestretch}{1,25}
+
+\documentclass[a4paper,openany,oneside]{article}%
+\usepackage[14pt]{extsizes}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{mathtext}
+\usepackage[unicode]{hyperref}
+\usepackage{cmap}
+\usepackage[cp1251]{inputenc}
+\usepackage[english,russian]{babel}
+\usepackage{longtable}
+\usepackage{graphicx}
+\usepackage[matrix,arrow,curve]{xy}
+\usepackage{ccaption}
+\usepackage{misccorr}
+\usepackage{indentfirst}
+\usepackage{soul}%
+\setcounter{MaxMatrixCols}{30}
+%TCIDATA{OutputFilter=latex2.dll}
+%TCIDATA{Version=5.50.0.2960}
+%TCIDATA{Codepage=1251}
+%TCIDATA{CSTFile=article.cst}
+%TCIDATA{Created=Thursday, December 15, 2016 08:42:37}
+%TCIDATA{LastRevised=Wednesday, April 19, 2023 15:27:00}
+%TCIDATA{<META NAME="GraphicsSave" CONTENT="32">}
+%TCIDATA{<META NAME="SaveForMode" CONTENT="1">}
+%TCIDATA{BibliographyScheme=Manual}
+%TCIDATA{<META NAME="DocumentShell" CONTENT="Standard LaTeX\Blank - Standard LaTeX Article">}
+%BeginMSIPreambleData
+\providecommand{\U}[1]{\protect\rule{.1in}{.1in}}
+%EndMSIPreambleData
+\newtheorem{theorem}{\indent Теорема}[section]
+\newtheorem{proposition}{\indent Предложение}[section]
+\newtheorem{lemma}{\indent Лемма}[section]
+\newtheorem{Characteristic}{\indent Свойство}[section]
+\newtheorem{corollary}{\indent Следствие}[section]
+\newtheorem{criterion}{\indent Критерий}[section]
+\newtheorem{example}{\indent Пример}[section]
+\newtheorem{remark}{\indent Замечание}[section]
+\newtheorem{algorithm}{\indent Алгоритм}
+\newtheorem{axiom}{\indent Аксиома}[section]
+\newtheorem{case}{\indent Случай}[section]
+\newtheorem{claim}{\indent Требование}[section]
+\newtheorem{conclusion}{\indent Заключение}[section]
+\newtheorem{condition}{\indent Условие}[section]
+\newtheorem{conjecture}{\indent Предположение}[section]
+\newtheorem{definition}{\indent Определение}[section]
+\newtheorem{exercise}{\indent Упражнение}[section]
+\newtheorem{problem}{\indent Задача}[section]
+\newtheorem{summary}{\indent Вывод}[section]
+\oddsidemargin 0cm \evensidemargin 0cm \textwidth 16,5cm \topmargin -2cm
+\renewcommand{\baselinestretch}{1,2}
+\textheight 27cm
+\newenvironment{proof}{\par{Д о к а з а т е л ь с т в о.}}{\ $\Box$\vspace{6pt}}
+\pagestyle{myheadings}
+\numberwithin{equation}{section}
+\parindent 1,2cm
+\sloppy
+\begin{document}
+%
+\[
+\left\{
+\begin{array}
+[c]{l}%
+a_{11}U^{^{\prime\prime}}+a_{12}U+a_{13}\Phi^{^{\prime\prime}}+a_{14}\Phi=0\\
+a_{13}U^{^{\prime\prime}}+a_{14}U+a_{23}\Phi^{^{\prime\prime}}+a_{24}\Phi=0
+\end{array}
+\right.  _{a_{11}II-a_{13}I}%
+\]%
+\[
+\left\{
+\begin{array}
+[c]{l}%
+a_{13}a_{11}U^{^{\prime\prime}}+a_{13}a_{12}U+a_{13}a_{13}\Phi^{^{\prime
+\prime}}+a_{13}a_{14}\Phi=0\\
+a_{11}a_{13}U^{^{\prime\prime}}+a_{11}a_{14}U+a_{11}a_{23}\Phi^{^{\prime
+\prime}}+a_{11}a_{24}\Phi=0
+\end{array}
+\right.
+\]%
+\[
+\left\{
+\begin{array}
+[c]{l}%
+a_{11}U^{^{\prime\prime}}+a_{12}U+a_{13}\Phi^{^{\prime\prime}}+a_{14}\Phi=0\\
+\left(  a_{11}a_{14}-a_{13}a_{12}\right)  U+\left(  a_{11}a_{23}-a_{13}%
+^{2}\right)  \Phi^{^{\prime\prime}}+\left(  a_{11}a_{24}-a_{13}a_{14}\right)
+\Phi=0
+\end{array}
+\right.  _{\left(  a_{11}a_{23}-a_{13}^{2}\right)  I-a_{13}II}%
+\]%
+\[
+\left\{
+\begin{array}
+[c]{l}%
+a_{11}\left(  a_{11}a_{23}-a_{13}^{2}\right)  U^{^{\prime\prime}}%
++a_{12}\left(  a_{11}a_{23}-a_{13}^{2}\right)  U+a_{13}\left(  a_{11}%
+a_{23}-a_{13}^{2}\right)  \Phi^{^{\prime\prime}}+a_{14}\left(  a_{11}%
+a_{23}-a_{13}^{2}\right)  \Phi=0\\
+a_{13}\left(  a_{11}a_{14}-a_{13}a_{12}\right)  U+a_{13}\left(  a_{11}%
+a_{23}-a_{13}^{2}\right)  \Phi^{^{\prime\prime}}+a_{13}\left(  a_{11}%
+a_{24}-a_{13}a_{14}\right)  \Phi=0
+\end{array}
+\right.
+\]%
+\[
+\left\{
+\begin{array}
+[c]{l}%
+a_{11}\left(  a_{11}a_{23}-a_{13}^{2}\right)  U^{^{\prime\prime}}+\left(
+a_{12}\left(  a_{11}a_{23}-a_{13}^{2}\right)  -a_{13}\left(  a_{11}%
+a_{14}-a_{13}a_{12}\right)  \right)  U+\left(  a_{14}\left(  a_{11}%
+a_{23}-a_{13}^{2}\right)  -a_{13}\left(  a_{11}a_{24}-a_{13}a_{14}\right)
+\right)  \Phi=0\\
+\left(  a_{11}a_{14}-a_{13}a_{12}\right)  U+\left(  a_{11}a_{23}-a_{13}%
+^{2}\right)  \Phi^{^{\prime\prime}}+\left(  a_{11}a_{24}-a_{13}a_{14}\right)
+\Phi=0
+\end{array}
+\right.
+\]
+%
+
+\[
+\left(  a_{12}\left(  a_{11}a_{23}-a_{13}^{2}\right)  -a_{13}\left(
+a_{11}a_{14}-a_{13}a_{12}\right)  \right)  =a_{11}\left(  a_{12}a_{23}%
+-a_{13}a_{14}\right)
+\]
+\[
+\left(  a_{14}\left(  a_{11}a_{23}-a_{13}^{2}\right)  -a_{13}\left(
+a_{11}a_{24}-a_{13}a_{14}\right)  \right)  =-a_{11}\left(  a_{13}a_{24}%
+-a_{14}a_{23}\right)
+\]%
+\[
+\left\{
+\begin{array}
+[c]{l}%
+\left(  a_{11}a_{23}-a_{13}^{2}\right)  U^{^{\prime\prime}}+\left(
+a_{12}a_{23}-a_{13}a_{14}\right)  U-\left(  a_{13}a_{24}-a_{14}a_{23}\right)
+\Phi=0\\
+\left(  a_{11}a_{14}-a_{13}a_{12}\right)  U+\left(  a_{11}a_{23}-a_{13}%
+^{2}\right)  \Phi^{^{\prime\prime}}+\left(  a_{11}a_{24}-a_{13}a_{14}\right)
+\Phi=0
+\end{array}
+\right.
+\]%
+\[
+a_{11}=c_{44};a_{12}=\omega^{2}\rho-c_{55}\alpha^{2};a_{13}=e_{24}%
+;a_{14}=-e_{15}\alpha^{2};a_{23}=-\varepsilon_{22};a_{24}=\varepsilon
+_{11}\alpha^{2}%
+\]%
+\[
+a_{1}=\left(  a_{11}a_{23}-a_{13}^{2}\right)
+\]%
+\[
+a_{2}=\left(  a_{12}a_{23}-a_{13}a_{14}\right)
+\]%
+\[
+a_{3}=-\left(  a_{13}a_{24}-a_{14}a_{23}\right)
+\]%
+\[
+a_{4}=\left(  a_{11}a_{14}-a_{13}a_{12}\right)
+\]%
+\[
+a_{6}=\left(  a_{11}a_{24}-a_{13}a_{14}\right)
+\]
+%
+
+\[
+\left\{
+\begin{array}
+[c]{l}%
+a_{1}U^{^{\prime\prime}}+a_{2}U+a_{3}\Phi=0\\
+a_{4}U+a_{1}\Phi^{^{\prime\prime}}+a_{6}\Phi=0
+\end{array}
+\right.
+\]
+%
+
+\[
+\left\{
+\begin{array}
+[c]{l}%
+-\frac{a_{2}}{a_{1}}U-\frac{a_{3}}{a_{1}}\Phi=U^{^{\prime\prime}}\\
+-\frac{a_{4}}{a_{1}}U-\frac{a_{6}}{a_{1}}\Phi=\Phi^{^{\prime\prime}}%
+\end{array}
+\right.
+\]
+
+
+
+\end{document}

@@ -1,0 +1,319 @@
+%2multibyte Version: 5.50.0.2960 CodePage: 1251
+%\usepackage[cp1251]{inputenc}
+%\usepackage{newthm}
+%\renewcommand{\baselinestretch}{1,25}
+
+\documentclass[a4paper,openany,oneside]{article}%
+\usepackage[14pt]{extsizes}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{mathtext}
+\usepackage[unicode]{hyperref}
+\usepackage{cmap}
+\usepackage[cp1251]{inputenc}
+\usepackage[english,russian]{babel}
+\usepackage{longtable}
+\usepackage{graphicx}
+\usepackage[matrix,arrow,curve]{xy}
+\usepackage{ccaption}
+\usepackage{misccorr}
+\usepackage{indentfirst}
+\usepackage{soul}%
+\setcounter{MaxMatrixCols}{30}
+%TCIDATA{OutputFilter=latex2.dll}
+%TCIDATA{Version=5.50.0.2960}
+%TCIDATA{Codepage=1251}
+%TCIDATA{CSTFile=article.cst}
+%TCIDATA{Created=Thursday, December 15, 2016 08:42:37}
+%TCIDATA{LastRevised=Monday, April 17, 2023 11:23:07}
+%TCIDATA{<META NAME="GraphicsSave" CONTENT="32">}
+%TCIDATA{<META NAME="SaveForMode" CONTENT="1">}
+%TCIDATA{BibliographyScheme=Manual}
+%TCIDATA{<META NAME="DocumentShell" CONTENT="Standard LaTeX\Blank - Standard LaTeX Article">}
+%BeginMSIPreambleData
+\providecommand{\U}[1]{\protect\rule{.1in}{.1in}}
+%EndMSIPreambleData
+\newtheorem{theorem}{\indent Теорема}[section]
+\newtheorem{proposition}{\indent Предложение}[section]
+\newtheorem{lemma}{\indent Лемма}[section]
+\newtheorem{Characteristic}{\indent Свойство}[section]
+\newtheorem{corollary}{\indent Следствие}[section]
+\newtheorem{criterion}{\indent Критерий}[section]
+\newtheorem{example}{\indent Пример}[section]
+\newtheorem{remark}{\indent Замечание}[section]
+\newtheorem{algorithm}{\indent Алгоритм}
+\newtheorem{axiom}{\indent Аксиома}[section]
+\newtheorem{case}{\indent Случай}[section]
+\newtheorem{claim}{\indent Требование}[section]
+\newtheorem{conclusion}{\indent Заключение}[section]
+\newtheorem{condition}{\indent Условие}[section]
+\newtheorem{conjecture}{\indent Предположение}[section]
+\newtheorem{definition}{\indent Определение}[section]
+\newtheorem{exercise}{\indent Упражнение}[section]
+\newtheorem{problem}{\indent Задача}[section]
+\newtheorem{summary}{\indent Вывод}[section]
+\oddsidemargin 0cm \evensidemargin 0cm \textwidth 16,5cm \topmargin -2cm
+\renewcommand{\baselinestretch}{1,2}
+\textheight 27cm
+\newenvironment{proof}{\par{Д о к а з а т е л ь с т в о.}}{\ $\Box$\vspace{6pt}}
+\pagestyle{myheadings}
+\numberwithin{equation}{section}
+\parindent 1,2cm
+\sloppy
+\begin{document}
+\section{После
+поворта}
+
+\bigskip\  Выпишем
+поля
+\[
+U=t_{1}e^{-\gamma_{1}x}+t_{2}e^{\gamma_{1}x}+t_{3}e^{-\gamma_{2}x}%
++t_{4}e^{\gamma_{2}x}%
+\]%
+\[
+\Phi=t_{1}G_{1}e^{-\gamma_{1}x}+t_{2}G_{2}e^{\gamma_{1}x}+t_{3}G_{3}%
+e^{-\gamma_{2}x}+t_{4}G_{4}e^{\gamma_{2}x}%
+\]
+где $G_{1}=G_{2}=\frac{-a_{1}\gamma_{1}^{2}-a_{2}}{a_{3}%
+};G_{3}=G_{4}=\frac{-a_{1}\gamma_{2}^{2}-a_{2}}{a_{3}}$%
+\[
+U^{^{\prime}}=t_{1}\left(  -\gamma_{1}\right)  e^{-\gamma_{1}x}+t_{2}%
+\gamma_{1}e^{\gamma_{1}x}+t_{3}\left(  -\gamma_{2}\right)  e^{-\gamma_{2}%
+x}+t_{4}\left(  \gamma_{2}\right)  e^{\gamma_{2}x}%
+\]%
+\[
+\Phi^{^{\prime}}=t_{1}G_{1}\left(  -\gamma_{1}\right)  e^{-\gamma_{1}x}%
++t_{2}G_{2}\gamma_{1}e^{\gamma_{1}x}+t_{3}G_{3}\left(  -\gamma_{2}\right)
+e^{-\gamma_{2}x}+t_{4}G_{4}\left(  \gamma_{2}\right)  e^{\gamma_{2}x}%
+\]
+
+
+\bigskip и
+подставим в
+граничные
+условия
+\[
+\left\{
+\begin{array}
+[c]{l}%
+\left.  c_{55}U^{^{\prime}}+e_{15}\Phi^{^{\prime}}=-Q\right\vert _{x=-d}\\
+\left.  c_{55}U^{^{\prime}}+e_{15}\Phi^{^{\prime}}=0\right\vert _{x=d}\\
+\left.  e_{15}U^{^{\prime}}-\varepsilon_{11}\Phi^{^{\prime}}-\alpha
+\varepsilon_{0}\Phi=0\right\vert _{x=-d}\\
+\left.  e_{15}U^{^{\prime}}-\varepsilon_{11}\Phi^{^{\prime}}+\alpha
+\varepsilon_{0}\Phi=0\right\vert _{x=d}%
+\end{array}
+\right.
+\]%
+\[
+\left\{
+\begin{array}
+[c]{l}%
+\left.  c_{55}U^{^{\prime}}+e_{15}\Phi^{^{\prime}}=-Q\right\vert _{x=-d}\\
+\left.  c_{55}U^{^{\prime}}+e_{15}\Phi^{^{\prime}}=0\right\vert _{x=d}\\
+\left.  \varepsilon_{11}\Phi^{^{\prime}}-e_{15}U^{^{\prime}}+\alpha
+\varepsilon_{0}\Phi=0\right\vert _{x=-d}\\
+\left.  \varepsilon_{11}\Phi^{^{\prime}}-e_{15}U^{^{\prime}}-\alpha
+\varepsilon_{0}\Phi=0\right\vert _{x=d}%
+\end{array}
+\right.
+\]
+в то время
+как до
+поворота
+\[
+\left\{
+\begin{array}
+[c]{l}%
+\\
+\\
+\left.  \varepsilon_{22}\Phi^{^{\prime}}-e_{24}U^{^{\prime}}-\varepsilon
+_{0}\alpha\Phi\right\vert _{z=d}=0\\
+\left.  \varepsilon_{22}\Phi^{^{\prime}}-e_{24}U^{^{\prime}}+\varepsilon
+_{0}\alpha\Phi\right\vert _{z=-d}=0
+\end{array}
+\right.
+\]
+Найдем $t_{i}$%
+
+\[
+c_{55}U^{^{\prime}}=t_{1}c_{55}\left(  -\gamma_{1}\right)  e^{-\gamma_{1}%
+x}+t_{2}c_{55}\gamma_{1}e^{\gamma_{1}x}+t_{3}c_{55}\left(  -\gamma_{2}\right)
+e^{-\gamma_{2}x}+t_{4}c_{55}\left(  \gamma_{2}\right)  e^{\gamma_{2}x}%
+\]%
+\[
+e_{15}\Phi^{^{\prime}}=t_{1}e_{15}G_{1}\left(  -\gamma_{1}\right)
+e^{-\gamma_{1}x}+t_{2}e_{15}G_{2}\gamma_{1}e^{\gamma_{1}x}+t_{3}e_{15}%
+G_{3}\left(  -\gamma_{2}\right)  e^{-\gamma_{2}x}+t_{4}e_{15}G_{4}\left(
+\gamma_{2}\right)  e^{\gamma_{2}x}%
+\]%
+\[
+c_{55}U^{^{\prime}}+e_{15}\Phi^{^{\prime}}=t_{1}\left(  c_{55}\left(
+-\gamma_{1}\right)  +e_{15}G_{1}\left(  -\gamma_{1}\right)  \right)
+e^{-\gamma_{1}x}+t_{2}\left(  c_{55}\gamma_{1}+e_{15}G_{2}\gamma_{1}\right)
+e^{\gamma_{1}x}+t_{3}\left(  c_{55}\left(  -\gamma_{2}\right)  +e_{15}%
+G_{3}\left(  -\gamma_{2}\right)  \right)  e^{-\gamma_{2}x}+t_{4}\left(
+c_{55}\left(  \gamma_{2}\right)  +e_{15}G_{4}\left(  \gamma_{2}\right)
+\right)  e^{\gamma_{2}x}%
+\]
+
+
+\bigskip%
+
+\[
+c_{55}U^{^{\prime}}+e_{15}\Phi^{^{\prime}}=t_{1}\left(  c_{55}+e_{15}%
+G_{1}\right)  \left(  -\gamma_{1}\right)  e^{-\gamma_{1}x}+t_{2}\left(
+c_{55}+e_{15}G_{2}\right)  \gamma_{1}e^{\gamma_{1}x}+t_{3}\left(
+c_{55}+e_{15}G_{3}\right)  \left(  -\gamma_{2}\right)  e^{-\gamma_{2}x}%
++t_{4}\left(  c_{55}+e_{15}G_{4}\right)  \gamma_{2}e^{\gamma_{2}x}%
+\]
+
+
+Введем
+обозначения
+\[
+P_{1}=\left(  c_{55}+e_{15}G_{1}\right)  \left(  -\gamma_{1}\right)
+;P_{2}=\left(  c_{55}+e_{15}G_{3}\right)  \left(  -\gamma_{2}\right)
+\]
+тогда
+\[
+c_{55}U^{^{\prime}}+e_{15}\Phi^{^{\prime}}=t_{1}P_{1}e^{-\gamma_{1}x}%
++t_{2}\left(  -P_{1}\right)  e^{\gamma_{1}x}+t_{3}P_{2}e^{-\gamma_{2}x}%
++t_{4}\left(  -P_{2}\right)  e^{\gamma_{2}x}%
+\]
+
+
+\bigskip%
+
+\[
+\left(  \alpha\varepsilon_{0}-i\alpha\varepsilon_{11}\right)  \Phi
+=t_{1}\left(  \alpha\varepsilon_{0}-i\alpha\varepsilon_{11}\right)
+G_{1}e^{-\gamma_{1}x}+t_{2}\left(  \alpha\varepsilon_{0}-i\alpha
+\varepsilon_{11}\right)  G_{2}e^{\gamma_{1}x}+t_{3}\left(  \alpha
+\varepsilon_{0}-i\alpha\varepsilon_{11}\right)  G_{3}e^{-\gamma_{2}x}%
++t_{4}\left(  \alpha\varepsilon_{0}-i\alpha\varepsilon_{11}\right)
+G_{4}e^{\gamma_{2}x}%
+\]%
+\[
+e_{15}U^{^{\prime}}=t_{1}\left(  -\gamma_{1}\right)  e_{15}e^{-\gamma_{1}%
+x}+t_{2}\gamma_{1}e_{15}e^{\gamma_{1}x}+t_{3}\left(  -\gamma_{2}\right)
+e_{15}e^{-\gamma_{2}x}+t_{4}\gamma_{2}e_{15}e^{\gamma_{2}x}%
+\]%
+\[
+\left(  \alpha\varepsilon_{0}-i\alpha\varepsilon_{11}\right)  \Phi
+-e_{15}U^{^{\prime}}=t_{1}\left(  \left(  \alpha\varepsilon_{0}-i\alpha
+\varepsilon_{11}\right)  G_{1}-\left(  -\gamma_{1}\right)  e_{15}\right)
+e^{-\gamma_{1}x}+t_{2}\left(  \left(  \alpha\varepsilon_{0}-i\alpha
+\varepsilon_{11}\right)  G_{2}-\gamma_{1}e_{15}\right)  e^{\gamma_{1}x}%
++t_{3}\left(  \left(  \alpha\varepsilon_{0}-i\alpha\varepsilon_{11}\right)
+G_{3}-\left(  -\gamma_{2}\right)  e_{15}\right)  e^{-\gamma_{2}x}+t_{4}\left(
+\left(  \alpha\varepsilon_{0}-i\alpha\varepsilon_{11}\right)  G_{4}-\gamma
+_{2}e_{15}\right)  e^{\gamma_{2}x}%
+\]
+введем
+обозначения
+\[
+T_{1}=\left(  \left(  \alpha\varepsilon_{0}-i\alpha\varepsilon_{11}\right)
+G_{1}-\left(  -\gamma_{1}\right)  e_{15}\right)  ;T_{2}=\left(  \left(
+\alpha\varepsilon_{0}-i\alpha\varepsilon_{11}\right)  G_{2}-\gamma_{1}%
+e_{15}\right)  ;T_{3}=\left(  \left(  \alpha\varepsilon_{0}-i\alpha
+\varepsilon_{11}\right)  G_{3}-\left(  -\gamma_{2}\right)  e_{15}\right)
+;T_{4}=\left(  \left(  \alpha\varepsilon_{0}-i\alpha\varepsilon_{11}\right)
+G_{4}-\gamma_{2}e_{15}\right)
+\]%
+\[
+T_{1}=\left(  \alpha\varepsilon_{0}-i\alpha\varepsilon_{11}\right)
+G_{1}+\gamma_{1}e_{15};T_{2}=\left(  \alpha\varepsilon_{0}-i\alpha
+\varepsilon_{11}\right)  G_{2}-\gamma_{1}e_{15};T_{3}=\left(  \alpha
+\varepsilon_{0}-i\alpha\varepsilon_{11}\right)  G_{3}+\gamma_{2}e_{15}%
+;T_{4}=\left(  \alpha\varepsilon_{0}-i\alpha\varepsilon_{11}\right)
+G_{4}-\gamma_{2}e_{15}%
+\]%
+\[
+\left(  \alpha\varepsilon_{0}-i\alpha\varepsilon_{11}\right)  \Phi
+-e_{15}U^{^{\prime}}=t_{1}T_{1}e^{-\gamma_{1}x}+t_{2}T_{2}e^{\gamma_{1}%
+x}+t_{3}T_{3}e^{-\gamma_{2}x}+t_{4}T_{4}e^{\gamma_{2}x}%
+\]
+
+
+%
+
+\[
+\left(  \alpha\varepsilon_{0}+i\alpha\varepsilon_{11}\right)  \Phi
++e_{15}U^{^{\prime}}=t_{1}V_{1}e^{-\gamma_{1}x}+t_{2}V_{2}e^{\gamma_{1}%
+x}+t_{3}V_{3}e^{-\gamma_{2}x}+t_{4}V_{4}e^{\gamma_{2}x}%
+\]
+где
+\[
+V_{1}=\left(  \left(  \alpha\varepsilon_{0}+i\alpha\varepsilon_{11}\right)
+G_{1}+\left(  -\gamma_{1}\right)  e_{15}\right)  ;V_{2}=\left(  \left(
+\alpha\varepsilon_{0}+i\alpha\varepsilon_{11}\right)  G_{2}+\gamma_{1}%
+e_{15}\right)  ;V_{3}=\left(  \left(  \alpha\varepsilon_{0}+i\alpha
+\varepsilon_{11}\right)  G_{3}+\left(  -\gamma_{2}\right)  e_{15}\right)
+;V_{4}=\left(  \left(  \alpha\varepsilon_{0}+i\alpha\varepsilon_{11}\right)
+G_{4}+\gamma_{2}e_{15}\right)
+\]
+
+
+\bigskip%
+
+\[
+V_{1}=\left(  \alpha\varepsilon_{0}+i\alpha\varepsilon_{11}\right)
+G_{1}-\gamma_{1}e_{15};V_{2}=\left(  \alpha\varepsilon_{0}+i\alpha
+\varepsilon_{11}\right)  G_{2}+\gamma_{1}e_{15};V_{3}=\left(  \alpha
+\varepsilon_{0}+i\alpha\varepsilon_{11}\right)  G_{3}-\gamma_{2}e_{15}%
+;V_{4}=\left(  \alpha\varepsilon_{0}+i\alpha\varepsilon_{11}\right)
+G_{4}+\gamma_{2}e_{15}%
+\]%
+\[
+T_{1}=\left(  \alpha\varepsilon_{0}-i\alpha\varepsilon_{11}\right)
+G_{1}+\gamma_{1}e_{15};T_{2}=\left(  \alpha\varepsilon_{0}-i\alpha
+\varepsilon_{11}\right)  G_{2}-\gamma_{1}e_{15};T_{3}=\left(  \alpha
+\varepsilon_{0}-i\alpha\varepsilon_{11}\right)  G_{3}+\gamma_{2}e_{15}%
+;T_{4}=\left(  \alpha\varepsilon_{0}-i\alpha\varepsilon_{11}\right)
+G_{4}-\gamma_{2}e_{15}%
+\]
+таким
+образом
+граничные
+условия
+\[
+\left\{
+\begin{array}
+[c]{l}%
+t_{1}P_{1}e^{\gamma_{1}d}+t_{2}\left(  -P_{1}\right)  e^{-\gamma_{1}d}%
++t_{3}P_{2}e^{\gamma_{2}d}+t_{4}\left(  -P_{2}\right)  e^{-\gamma_{2}d}=-Q\\
+t_{1}P_{1}e^{-\gamma_{1}d}+t_{2}\left(  -P_{1}\right)  e^{\gamma_{1}d}%
++t_{3}P_{2}e^{-\gamma_{2}d}+t_{4}\left(  -P_{2}\right)  e^{\gamma_{2}d}=0\\
+t_{1}T_{1}e^{\gamma_{1}d}+t_{2}T_{2}e^{-\gamma_{1}d}+t_{3}T_{3}e^{\gamma_{2}%
+d}+t_{4}T_{4}e^{-\gamma_{2}d}=0\\
+t_{1}V_{1}e^{-\gamma_{1}d}+t_{2}V_{2}e^{\gamma_{1}d}+t_{3}V_{3}e^{-\gamma
+_{2}d}+t_{4}V_{4}e^{\gamma_{2}d}=0
+\end{array}
+\right.
+\]
+проделаем
+известный
+трюк
+\[
+\left\{
+\begin{array}
+[c]{l}%
+\left(  t_{1}-t_{2}\right)  P_{1}e^{\gamma_{1}d}+\left(  t_{1}-t_{2}\right)
+P_{1}e^{-\gamma_{1}d}+\left(  t_{3}-t_{4}\right)  P_{2}e^{\gamma_{2}d}+\left(
+t_{3}-t_{4}\right)  P_{2}e^{-\gamma_{2}d}=-Q\\
+\left(  t_{1}+t_{2}\right)  P_{1}e^{-\gamma_{1}d}-\left(  t_{1}+t_{2}\right)
+P_{1}e^{\gamma_{1}d}+\left(  t_{3}+t_{4}\right)  P_{2}e^{-\gamma_{2}d}-\left(
+t_{3}+t_{4}\right)  P_{2}e^{\gamma_{2}d}=0\\
+t_{1}T_{1}e^{\gamma_{1}d}+t_{2}T_{2}e^{-\gamma_{1}d}+t_{3}T_{3}e^{\gamma_{2}%
+d}+t_{4}T_{4}e^{-\gamma_{2}d}=0\\
+t_{1}V_{1}e^{-\gamma_{1}d}+t_{2}V_{2}e^{\gamma_{1}d}+t_{3}V_{3}e^{-\gamma
+_{2}d}+t_{4}V_{4}e^{\gamma_{2}d}=0
+\end{array}
+\right.
+\]
+
+
+
+\end{document}
