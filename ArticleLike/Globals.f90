@@ -9,15 +9,25 @@ MODULE GLOBALS
             c44 = 0.743d2
             e15 = 5.16d0
             e24 = 11.7d0
-            eps11 = 34d0
+            eps11 = 37d0
             eps22 = 780d0
+        
+        
+            !c44 = 0.25d2
+            !c55 = 0.743d2
+            !e24 = 5.16d0
+            !e15 = 11.7d0
+            !eps22 = 37d0
+            !eps11 = 780d0
+        
+        
             
             eps0 = 8.85d-3
             h = 5d0
             rho = 4.630d0
             
-            fmin = 0.01d0
-            fmax = 2.01d0
+            fmin = 0.2d0
+            fmax = 2.2d0
             fstep = 0.005d0
         end subroutine InitGlobals
         

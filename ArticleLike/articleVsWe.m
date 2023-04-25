@@ -5,11 +5,13 @@ fh.WindowState = 'maximized';
 
 data = load('newDzeta.txt');
 x = data(:,1);
-dzeta = data(:,2);
+dzeta = data(:,3);
 
 
-plot(x, dzeta,  '.', 'markerSize', 15);
-
+plot(x, dzeta,  '.', 'markerSize', 30);
+xlim([1 11])
+ylim([0 10])
+daspect([1 3.68 1])
 xlabel('hf κμ/ρ');
 grid on
 
