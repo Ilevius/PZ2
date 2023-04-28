@@ -5,20 +5,20 @@ MODULE GLOBALS
     parameter (pi=3.141592653589793d0)
     CONTAINS 
         subroutine InitGlobals
-            c55 = 0.25d2
-            c44 = 0.743d2
-            e15 = 5.16d0
-            e24 = 11.7d0
-            eps11 = 37d0
-            eps22 = 780d0
+            !c55 = 0.25d2
+            !c44 = 0.743d2
+            !e15 = 5.16d0
+            !e24 = 11.7d0
+            !eps11 = 37d0
+            !eps22 = 780d0
         
         
-            !c44 = 0.25d2
-            !c55 = 0.743d2
-            !e24 = 5.16d0
-            !e15 = 11.7d0
-            !eps22 = 37d0
-            !eps11 = 780d0
+            c44 = 0.25d2
+            c55 = 0.743d2
+            e24 = 5.16d0
+            e15 = 11.7d0
+            eps22 = 34d0
+            eps11 = 780d0
         
         
             
